@@ -1,0 +1,78 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1824 ]
+[d frameptr 6 ]
+"146 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\i2c-def.X\mcc_generated_files/i2c_master.c
+[e E2809 . `uc
+I2C_IDLE 0
+I2C_SEND_ADR_READ 1
+I2C_SEND_ADR_WRITE 2
+I2C_TX 3
+I2C_RX 4
+I2C_RCEN 5
+I2C_TX_EMPTY 6
+I2C_SEND_RESTART_READ 7
+I2C_SEND_RESTART_WRITE 8
+I2C_SEND_RESTART 9
+I2C_SEND_STOP 10
+I2C_RX_ACK 11
+I2C_RX_NACK_STOP 12
+I2C_RX_NACK_RESTART 13
+I2C_RESET 14
+I2C_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C_STOP 1
+I2C_RESTART_READ 2
+I2C_RESTART_WRITE 3
+I2C_CONTINUE 4
+I2C_RESET_LINK 5
+]
+[e E355 . `uc
+I2C_NOERR 0
+I2C_BUSY 1
+I2C_FAIL 2
+]
+"191
+[e E2827 . `uc
+I2C_DATA_COMPLETE 0
+I2C_WRITE_COLLISION 1
+I2C_ADDR_NACK 2
+I2C_DATA_NACK 3
+I2C_TIMEOUT 4
+I2C_NULL 5
+]
+"81 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\i2c-def.X\mcc_generated_files/examples/uart_example.c
+[e E2460 . `uc
+UART0 0
+]
+"67 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\i2c-def.X\mcc_generated_files/examples/i2c_master_example.c
+[e E355 . `uc
+I2C_NOERR 0
+I2C_BUSY 1
+I2C_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C_STOP 1
+I2C_RESTART_READ 2
+I2C_RESTART_WRITE 3
+I2C_CONTINUE 4
+I2C_RESET_LINK 5
+]
+"34 C:\Users\grkm\Desktop\W\MPLAB\workspace_pic16f1824\i2c-def.X\mcc_generated_files/drivers/i2c_simple_master.c
+[e E360 . `uc
+I2C_STOP 1
+I2C_RESTART_READ 2
+I2C_RESTART_WRITE 3
+I2C_CONTINUE 4
+I2C_RESET_LINK 5
+]
+"53
+[e E355 . `uc
+I2C_NOERR 0
+I2C_BUSY 1
+I2C_FAIL 2
+]
